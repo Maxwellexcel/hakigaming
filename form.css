@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+header {
+    background-color: #292929;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    background-color: #2e2e2e;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: calc(33% - 2rem);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.product-item p {
+    color: #aaa;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #4fa9d6;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin: 0.5rem 0 0.25rem 0;
+}
+
+#contactForm input, #contactForm textarea {
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: #3a3a3a;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#contactForm button {
+    align-self: flex-start;
+}
+body {
+    /* Default light mode styles */
+    --text-color: #222;
+    --bkg-color: #fff;
+    --anchor-color: #0033cc;
+  }
+  
+  body.dark-theme {
+    /* Dark mode styles */
+    --text-color: #eee;
+    --bkg-color: #12121 }
